@@ -1,7 +1,8 @@
-# Greetings. This is my small project about me
+# Greetings. This is my small project with info about me
 
 I used Vite and Tailwind. 
-It's overengineering for such a small project but I have plans to use this environment and add more features and content 
+It's overengineering for such a small project 
+but I have plans to use this environment and add more features and content in future
 
 To start project as usual just 
 1. Clone repo
