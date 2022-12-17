@@ -1,5 +1,5 @@
 function Main() {
-  return <div className="text-gray-400">sdfsd</div>;
+  return <div className="bg-black w-full h-screen">main</div>;
 }
 
 export default Main;
