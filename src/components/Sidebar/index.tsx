@@ -14,7 +14,7 @@ export const Sidebar = () => {
   return (
     <>
       <aside
-        className="sm:w-64 w-full absolute drop-shadow  p-4"
+        className="sm:w-64 w-full absolute drop-shadow p-4"
         aria-label="Sidebar"
       >
         <button onClick={openSidebar} className="flex items-center">
@@ -35,7 +35,7 @@ export const Sidebar = () => {
         </button>
 
         <div
-          className={`w-full overflow-y-auto py-4 px-3 bg-red-100 rounded dark:bg-gray-800 h-screen absolute top-0 ${
+          className={`w-full overflow-y-auto py-4 px-3 bg-red-100 rounded dark:bg-gray-800 h-screen absolute top-0 transition-all ${
             isOpenSidebar ? "left-0" : "-left-full"
           }`}
         >
